@@ -1,1 +1,11 @@
-You log goes in this  file.
+Your log goes in this  file.
+
+
+Start: **
+End: Sat, 18 Apr 2015 14:30:03 -0600
+Tasks: initial commit
+Start: **
+End: Sat, 18 Apr 2015 13:46:25 -0600
+Tasks: :neckbeard: Added .gitattributes & .gitignore files
+
+
