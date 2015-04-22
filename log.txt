@@ -1,5 +1,9 @@
 Your log goes in this  file.
 
+Start: Mon, 20 Apr 2015 22:12:00 -0600
+End: Mon, 20 Apr 2015 22:19:44 -0600
+Tasks: added log.txt
+
 Start: Mon, 20 Apr 2-15 18:10:00 -0600                                                                         
 End: Mon, 20 Apr 2015 22:11:45 -0600                                            
 Tasks: assignment 3 part 1 src                                                  

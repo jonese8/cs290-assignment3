@@ -11,10 +11,10 @@
 function returnObjectLiteral() {
   //your code here
   return {
-      type: 'Goldfish',
-      brand: 'Pepperidge Farm',
-      flavor: 'Cheddar',
-      count: 2000
+    type: 'Goldfish',
+    brand: 'Pepperidge Farm',
+    flavor: 'Cheddar',
+    count: 2000
   };
   //end your code
 }
@@ -43,35 +43,27 @@ function returnObjectLiteral() {
 */
 
 //your code here
-function logMessage(messageText, direction) 
-{
-  if(direction === 0) 
-  {
+function logMessage(messageText, direction) {
+  if (direction === 0) {
     this.sentMessages.unshift(messageText);
-  } 
-  else if(direction === 1) 
-  {
+  } else if (direction === 1) {
     this.receivedMessages.unshift(messageText);
   }
 }
 
-function getSentMessage(n) 
-{
+function getSentMessage(n) {
   return this.sentMessages[n];
 }
 
-function totalSent() 
-{
+function totalSent() {
   return this.sentMessages.length;
 }
 
-function totalReceived() 
-{
+function totalReceived() {
   return this.receivedMessages.length;
 }
 
-function MessageLog(user) 
-{
+function MessageLog(user) {
   this.user = user;
   this.logMessage = logMessage;
   this.getSentMessage = getSentMessage;
@@ -88,8 +80,7 @@ function MessageLog(user)
 * received.
 */
 //your code here
-function lastReceivedMessage() 
-{
+function lastReceivedMessage() {
   return this.receivedMessages[this.receivedMessages.length - 1];
 }
 

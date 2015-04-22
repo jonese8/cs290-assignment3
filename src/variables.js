@@ -14,8 +14,8 @@ function variableModification(a) {
   var asString;
   var yourNumberIs;
   //your code here
-  if(a === NaN) {
-      return false;
+  if (isNaN(a)) {
+    return false;
   }
   plus5 = 5 + a;
   asString = a.toString();
@@ -33,8 +33,8 @@ return true if b is a primitive string value (also known as a string literal),
 false otherwise
 */
 function isString(b) {
-if(typeof(b) == "string") {
-      return true;
+  if (typeof b === "string") {
+    return true;
   }
   return false;
   //end your code
@@ -49,7 +49,7 @@ return true if c is null, false otherwise
 */
 function isNull(c) {
   //your code here
-  if(c === null) {
+  if (c === null) {
     return true;
   }
   return false;
